@@ -13,6 +13,10 @@
 		2A0EAD0F2066CA9C00190EE9 /* SwiftKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A0EAD0D2066CA9C00190EE9 /* SwiftKit.xcdatamodeld */; };
 		2A0EAD112066CA9C00190EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0EAD102066CA9C00190EE9 /* Assets.xcassets */; };
 		2A0EAD142066CA9C00190EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0EAD122066CA9C00190EE9 /* LaunchScreen.storyboard */; };
+		2A51F57D2067F8BE00729394 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F57C2067F8BE00729394 /* HomeViewController.swift */; };
+		2A51F57F206809F200729394 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F57E206809F200729394 /* Constants.swift */; };
+		2A51F58220680C2800729394 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F58120680C2800729394 /* firstViewController.swift */; };
+		2A51F58420680C3B00729394 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F58320680C3B00729394 /* SecondViewController.swift */; };
 		2AEF1A292066E35200E97EAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AEF1A282066E35200E97EAB /* GoogleService-Info.plist */; };
 		CF85DCC40DC07353A61D6CC4 /* Pods_SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB634430B337447EC535E72 /* Pods_SwiftKit.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +32,10 @@
 		2A0EAD102066CA9C00190EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0EAD132066CA9C00190EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0EAD152066CA9C00190EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A51F57C2067F8BE00729394 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A51F57E206809F200729394 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A51F58120680C2800729394 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		2A51F58320680C3B00729394 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2AEF1A282066E35200E97EAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CB634430B337447EC535E72 /* Pods_SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +83,9 @@
 			children = (
 				2A0EAD062066CA9C00190EE9 /* AppDelegate.swift */,
 				2A0EAD082066CA9C00190EE9 /* ViewController.swift */,
+				2A51F57E206809F200729394 /* Constants.swift */,
+				2A51F57C2067F8BE00729394 /* HomeViewController.swift */,
+				2A51F58020680BFF00729394 /* Segue Demo */,
 				2A0EAD0A2066CA9C00190EE9 /* Main.storyboard */,
 				2A0EAD102066CA9C00190EE9 /* Assets.xcassets */,
 				2A0EAD122066CA9C00190EE9 /* LaunchScreen.storyboard */,
@@ -83,6 +94,15 @@
 				2A0EAD0D2066CA9C00190EE9 /* SwiftKit.xcdatamodeld */,
 			);
 			path = SwiftKit;
+			sourceTree = "<group>";
+		};
+		2A51F58020680BFF00729394 /* Segue Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2A51F58120680C2800729394 /* firstViewController.swift */,
+				2A51F58320680C3B00729394 /* SecondViewController.swift */,
+			);
+			path = "Segue Demo";
 			sourceTree = "<group>";
 		};
 		4D229E4965B39128571D9C84 /* Pods */ = {
@@ -242,9 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A51F57F206809F200729394 /* Constants.swift in Sources */,
 				2A0EAD092066CA9C00190EE9 /* ViewController.swift in Sources */,
 				2A0EAD072066CA9C00190EE9 /* AppDelegate.swift in Sources */,
 				2A0EAD0F2066CA9C00190EE9 /* SwiftKit.xcdatamodeld in Sources */,
+				2A51F58420680C3B00729394 /* SecondViewController.swift in Sources */,
+				2A51F57D2067F8BE00729394 /* HomeViewController.swift in Sources */,
+				2A51F58220680C2800729394 /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
