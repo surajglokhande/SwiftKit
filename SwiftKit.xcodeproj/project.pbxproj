@@ -17,6 +17,12 @@
 		2A51F57F206809F200729394 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F57E206809F200729394 /* Constants.swift */; };
 		2A51F58220680C2800729394 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F58120680C2800729394 /* firstViewController.swift */; };
 		2A51F58420680C3B00729394 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F58320680C3B00729394 /* SecondViewController.swift */; };
+		2A62EE2A206D401500BE9F0A /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A62EE29206D401500BE9F0A /* CoreDataViewController.swift */; };
+		2A62EE2C206D402800BE9F0A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A62EE2B206D402800BE9F0A /* CoreDataManager.swift */; };
+		2AA029F32072908400C1C3B2 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA029F22072908400C1C3B2 /* PersonTableViewController.swift */; };
+		2AA029F52072909300C1C3B2 /* AddressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA029F42072909300C1C3B2 /* AddressTableViewController.swift */; };
+		2AA029F7207292C500C1C3B2 /* CoreDataTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA029F6207292C500C1C3B2 /* CoreDataTabController.swift */; };
+		2AA029F92072984C00C1C3B2 /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA029F82072984C00C1C3B2 /* AddRecordViewController.swift */; };
 		2AEF1A292066E35200E97EAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AEF1A282066E35200E97EAB /* GoogleService-Info.plist */; };
 		CF85DCC40DC07353A61D6CC4 /* Pods_SwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB634430B337447EC535E72 /* Pods_SwiftKit.framework */; };
 /* End PBXBuildFile section */
@@ -36,6 +42,12 @@
 		2A51F57E206809F200729394 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2A51F58120680C2800729394 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		2A51F58320680C3B00729394 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2A62EE29206D401500BE9F0A /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		2A62EE2B206D402800BE9F0A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2AA029F22072908400C1C3B2 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		2AA029F42072909300C1C3B2 /* AddressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewController.swift; sourceTree = "<group>"; };
+		2AA029F6207292C500C1C3B2 /* CoreDataTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTabController.swift; sourceTree = "<group>"; };
+		2AA029F82072984C00C1C3B2 /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
 		2AEF1A282066E35200E97EAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CB634430B337447EC535E72 /* Pods_SwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +97,7 @@
 				2A0EAD082066CA9C00190EE9 /* ViewController.swift */,
 				2A51F57E206809F200729394 /* Constants.swift */,
 				2A51F57C2067F8BE00729394 /* HomeViewController.swift */,
+				2ACFFD4120688FD60033A6A3 /* Coew Data */,
 				2A51F58020680BFF00729394 /* Segue Demo */,
 				2A0EAD0A2066CA9C00190EE9 /* Main.storyboard */,
 				2A0EAD102066CA9C00190EE9 /* Assets.xcassets */,
@@ -103,6 +116,19 @@
 				2A51F58320680C3B00729394 /* SecondViewController.swift */,
 			);
 			path = "Segue Demo";
+			sourceTree = "<group>";
+		};
+		2ACFFD4120688FD60033A6A3 /* Coew Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A62EE29206D401500BE9F0A /* CoreDataViewController.swift */,
+				2A62EE2B206D402800BE9F0A /* CoreDataManager.swift */,
+				2AA029F82072984C00C1C3B2 /* AddRecordViewController.swift */,
+				2AA029F22072908400C1C3B2 /* PersonTableViewController.swift */,
+				2AA029F6207292C500C1C3B2 /* CoreDataTabController.swift */,
+				2AA029F42072909300C1C3B2 /* AddressTableViewController.swift */,
+			);
+			name = "Coew Data";
 			sourceTree = "<group>";
 		};
 		4D229E4965B39128571D9C84 /* Pods */ = {
@@ -262,11 +288,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA029F7207292C500C1C3B2 /* CoreDataTabController.swift in Sources */,
+				2AA029F32072908400C1C3B2 /* PersonTableViewController.swift in Sources */,
 				2A51F57F206809F200729394 /* Constants.swift in Sources */,
+				2AA029F92072984C00C1C3B2 /* AddRecordViewController.swift in Sources */,
+				2A62EE2A206D401500BE9F0A /* CoreDataViewController.swift in Sources */,
 				2A0EAD092066CA9C00190EE9 /* ViewController.swift in Sources */,
 				2A0EAD072066CA9C00190EE9 /* AppDelegate.swift in Sources */,
+				2AA029F52072909300C1C3B2 /* AddressTableViewController.swift in Sources */,
 				2A0EAD0F2066CA9C00190EE9 /* SwiftKit.xcdatamodeld in Sources */,
 				2A51F58420680C3B00729394 /* SecondViewController.swift in Sources */,
+				2A62EE2C206D402800BE9F0A /* CoreDataManager.swift in Sources */,
 				2A51F57D2067F8BE00729394 /* HomeViewController.swift in Sources */,
 				2A51F58220680C2800729394 /* firstViewController.swift in Sources */,
 			);

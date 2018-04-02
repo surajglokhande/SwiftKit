@@ -10,7 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
-    let homeArray = ["Navigation Using segue"]
+    let homeArray = ["Navigation Using segue","Core Data Demo"]
     
     @IBOutlet weak var homeTableView: UITableView! = {
         let tableview = UITableView()
@@ -30,6 +30,18 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        switch indexPath.row {
+        case 0:
+            if let controller = self.storyboard?.instantiateViewController(withIdentifier: Constants.FirstViewController) as? firstViewController {
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
+        case 1:
+            if let controller = self.storyboard?.instantiateViewController(withIdentifier: Constants.FirstViewController) as? firstViewController {
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
+        default:
+            break
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -48,6 +60,10 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.HomeCellID, for: indexPath)
         cell.textLabel?.text = self.homeArray[indexPath.row]
         return cell
+    }
+    
+    @IBAction func unwindToMain(segue : UIStoryboardSegue) {
+            print("main")
     }
 
 }

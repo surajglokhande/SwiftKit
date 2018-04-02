@@ -10,6 +10,6 @@ import Foundation
 
 class Constants: Any {
     
-    static let HomeCellID = "HomeCellID"
-    
+    static let HomeCellID = "homeCellID"
+    static let FirstViewController = "firstViewController"
 }

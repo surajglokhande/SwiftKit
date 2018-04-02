@@ -23,11 +23,17 @@ class SecondViewController: UIViewController {
             self.lblText.text = _name
         }
 
-        btnExit.addTarget(self, action: #selector(backToRoot(sender:)), for: .touchUpInside)
+        //btnExit.addTarget(self, action: #selector(backToRoot(sender:)), for: .touchUpInside)
     }
     
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
+        //
+    }
+    
+    
+    
     @objc func backToRoot(sender : Any) {
-        self.navigationController?.popToRootViewController(animated: true)
+        //self.navigationController?.popToRootViewController(animated: true)
     }
 
 

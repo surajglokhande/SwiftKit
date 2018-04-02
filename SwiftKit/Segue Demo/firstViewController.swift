@@ -28,7 +28,9 @@ class firstViewController: UIViewController {
         performSegue(withIdentifier: "segueFirstToSecond", sender: nil)
     }
 
-    
+    @IBAction func unwindTofirst(segue : UIStoryboardSegue) {
+            print("first")
+    }
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
